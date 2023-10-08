@@ -115,7 +115,7 @@ export const config: Config = {
       },
       {
         name: "Wikipedia",
-        icon: "wikipedia-w",
+        icon: "fab-wikipedia-w",
         url: "https://es.wikipedia.org/wiki",
       },
       {
