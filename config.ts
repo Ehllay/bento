@@ -11,7 +11,7 @@ import { Config } from "./src/types/config";
 // Use an editor with Typescript support to get autocomplete and validity checking!
 export const config: Config = {
   // General
-  name: "John",
+  name: "Ehllay",
   openInNewTab: true,
   title: "Bento",
 
@@ -20,7 +20,7 @@ export const config: Config = {
   flashSeparator: false,
 
   // Theme
-  theme: "bento",
+  theme: "catppuccin-mocha",
 
   // Place a background image in ./src/assets/images/ and provide the file name.
   // Alternatively, provide a URL to an image. If the page is served over https, you may have issues loading images from insecure origins.
@@ -42,7 +42,7 @@ export const config: Config = {
 
   // Search Bar
   searchBar: true,
-  searchEngine: "google", // google, ddg
+  searchEngine: "ddg", // google, ddg
   barPlaceholder: "", // if blank, use search engine name. Set to ' ' for no placeholder.
   autoFocusBar: true,
 
@@ -101,27 +101,27 @@ export const config: Config = {
       {
         name: "Mail",
         icon: "envelope",
-        url: "https://mail.protonmail.com/",
+        url: "https://gmail.com/",
       },
       {
-        name: "Todoist",
-        icon: "list-ol",
-        url: "https://todoist.com",
+        name: "ChatGPT",
+        icon: "fas-robot",
+        url: "https://chat.openai.com",
       },
       {
-        name: "Calendar",
-        icon: "calendar",
-        url: "https://calendar.google.com/calendar/r",
+        name: "Arch Linux",
+        icon: "book",
+        url: "https://archlinux.org",
       },
       {
         name: "Reddit",
         icon: "fab-reddit",
-        url: "https://reddit.com",
+        url: "https://old.reddit.com",
       },
       {
-        name: "Odysee",
+        name: "Youtube",
         icon: "fab-youtube",
-        url: "https://odysee.com/",
+        url: "https://youtube.com/",
       },
     ],
     // Second buttons group
