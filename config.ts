@@ -105,7 +105,7 @@ export const config: Config = {
       },
       {
         name: "ChatGPT",
-        icon: "fas-robot",
+        icon: "robot",
         url: "https://chat.openai.com",
       },
       {
@@ -114,9 +114,9 @@ export const config: Config = {
         url: "https://archlinux.org",
       },
       {
-        name: "Reddit",
-        icon: "fab-reddit",
-        url: "https://old.reddit.com",
+        name: "Wikipedia",
+        icon: "wikipedia-w",
+        url: "https://es.wikipedia.org/wiki",
       },
       {
         name: "Youtube",
@@ -166,44 +166,40 @@ export const config: Config = {
     // If you're using the 'bento' layout, this is the only group that will be used.
     [
       {
-        icon: "music", // Icon for the list to use. The same as the buttons.
+        icon: "code", // Icon for the list to use. The same as the buttons.
         links: [
           {
-            name: "Inspirational", // Display text for the link
-            url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ", // URL to the page
+            name: "CodeWars", // Display text for the link
+            url: "https://www.codewars.com/", // URL to the page
           },
           {
-            name: "Classic",
-            url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            name: "WakaTime",
+            url: "https://wakatime.com/dashboard",
           },
           {
-            name: "Oldies",
-            url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            name: "Localhost",
+            url: "http://localhost:8000",
           },
           {
-            name: "Rock",
-            url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            name: "Repos",
+            url: "https://github.com/Ehllay?tab=repositories",
           },
         ],
       },
       {
-        icon: "coffee",
+        icon: "gamepad",
         links: [
           {
-            name: "Linkedin",
-            url: "https://www.linkedin.com",
+            name: "Thingiverse",
+            url: "https://www.thingiverse.com",
           },
           {
-            name: "Dribbble",
-            url: "https://www.dribbble.com",
+            name: "ProtonDB",
+            url: "https://www.protondb.com",
           },
           {
-            name: "Trello",
-            url: "https://www.trello.com",
-          },
-          {
-            name: "Slack",
-            url: "https://www.slack.com",
+            name: "Reddit",
+            url: "https://old.reddit.com",
           },
         ],
       },
