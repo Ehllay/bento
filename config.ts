@@ -110,7 +110,7 @@ export const config: Config = {
       },
       {
         name: "Arch Linux",
-        icon: "book",
+        icon: "fab-linux",
         url: "https://archlinux.org",
       },
       {
