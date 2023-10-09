@@ -114,9 +114,9 @@ export const config: Config = {
         url: "https://archlinux.org",
       },
       {
-        name: "Wikipedia",
-        icon: "fab-wikipedia-w",
-        url: "https://es.wikipedia.org/wiki",
+        name: "Reddit",
+        icon: "fab-reddit",
+        url: "https://old.reddit.com",
       },
       {
         name: "Youtube",
@@ -168,10 +168,7 @@ export const config: Config = {
       {
         icon: "code", // Icon for the list to use. The same as the buttons.
         links: [
-          {
-            name: "CodeWars", // Display text for the link
-            url: "https://www.codewars.com/", // URL to the page
-          },
+          
           {
             name: "WakaTime",
             url: "https://wakatime.com/dashboard",
@@ -190,16 +187,16 @@ export const config: Config = {
         icon: "gamepad",
         links: [
           {
+            name: "CodeWars", // Display text for the link
+            url: "https://www.codewars.com/", // URL to the page
+          },
+          {
             name: "Thingiverse",
             url: "https://www.thingiverse.com",
           },
           {
             name: "ProtonDB",
             url: "https://www.protondb.com",
-          },
-          {
-            name: "Reddit",
-            url: "https://old.reddit.com",
           },
         ],
       },
