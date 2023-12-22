@@ -114,9 +114,9 @@ export const config: Config = {
         url: "https://archlinux.org",
       },
       {
-        name: "Reddit",
-        icon: "fab-reddit",
-        url: "https://old.reddit.com",
+        name: "Docs",
+        icon: "file-lines",
+        url: "https://docs.google.com",
       },
       {
         name: "Youtube",
@@ -201,6 +201,10 @@ export const config: Config = {
           {
             name: "ProtonDB",
             url: "https://www.protondb.com",
+          },
+          {
+            name: "Reddit",
+            url: "https://old.reddit.com",
           },
         ],
       },
