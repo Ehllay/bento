@@ -13,7 +13,7 @@ export const config: Config = {
   // General
   name: "Ehllay",
   openInNewTab: false,
-  title: "Bento",
+  title: "Dashboard",
 
   // Clock
   twelveHourFormat: false,
@@ -83,7 +83,7 @@ export const config: Config = {
     searchBar: true,
     themeButton: true,
     clock: true,
-    greeter: true,
+    greeter: false,
     date: true,
     weather: true,
   },
@@ -170,7 +170,7 @@ export const config: Config = {
         links: [
           
           {
-            name: "WakaTime",
+            name: "Time",
             url: "https://wakatime.com/dashboard",
           },
           {
@@ -181,6 +181,10 @@ export const config: Config = {
             name: "Repos",
             url: "https://github.com/Ehllay?tab=repositories",
           },
+          {
+            name: "Crates",
+            url: "https://crates.io/",
+          }
         ],
       },
       {
